@@ -4,6 +4,15 @@ public class Person {
 
 	private String id;
 	private String name;
+	private String major;
+	
+	public String getMajor(){
+		return this.major;
+	}
+	
+	public void setMajor(String major){
+		this.major = major;
+	}
 
 	public String getId() {
 		
